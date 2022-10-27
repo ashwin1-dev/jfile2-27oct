@@ -23,6 +23,7 @@ pipeline {
 		  steps {
                        sh 'sudo systemctl start httpd'
                       }
+		}
 
 		stage('git clone') {
 		steps {
